@@ -1,0 +1,4 @@
+id,single,married,divorced,male,female, have_a_sports_car,have_a_compact_car,have_a_truck,have_a_pickup,state_NY,state_WI,state_MI
+1,true,false,false,true,false,false,true,false,true,false,true,false
+2,true,false,true,false,false,false,true,false,false,false,true,false
+3,trues,false,false,true,false,false,false,false,false,true,true,false
