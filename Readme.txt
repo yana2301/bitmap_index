@@ -3,6 +3,8 @@ Data is indexed using bitmap indices:
 1.for each attribute separate bitset is created. bit in bitset is set to 1 if record has attribute.
 2.to find records that have specific set of attributes we find intersection of bitsets for requested attributes.
 
+Assumptions: I assume that dataset contains either true or false for each attribute.
+
 Complexity estimation:
 Let's say we have:
     N records
